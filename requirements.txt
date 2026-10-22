@@ -1,0 +1,7 @@
+# Python 3.10–3.12 recommended. Install a matching CUDA build of torch/torchvision
+# first on the training PC (see README.md).
+torch>=2.6,<3
+torchvision>=0.21,<1
+numpy>=1.26,<3
+Pillow>=10,<13
+

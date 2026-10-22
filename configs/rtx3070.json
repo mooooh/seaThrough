@@ -1,0 +1,18 @@
+{
+  "manifest": "artifacts/manifest.json",
+  "output": "runs/rtx3070",
+  "height": 320,
+  "width": 384,
+  "batch_size": 8,
+  "epochs": 60,
+  "lr": 0.0002,
+  "weight_decay": 0.0001,
+  "workers": 4,
+  "device": "cuda",
+  "amp": true,
+  "pretrained": true,
+  "seed": 42,
+  "patience": 12,
+  "gradient_weight": 0.5,
+  "horizontal_flip": false
+}

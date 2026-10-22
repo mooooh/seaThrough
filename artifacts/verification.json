@@ -1,0 +1,35 @@
+{
+  "unit_tests_passed": 8,
+  "all_dataset_pairs_audited": 5000,
+  "cpu_training_smoke": {
+    "epochs": 2,
+    "train_pairs": 4,
+    "val_pairs": 4,
+    "input_hw": [
+      64,
+      96
+    ],
+    "pretrained": false,
+    "full_dataset_training": false
+  },
+  "checkpoint_reload": true,
+  "image_inference": true,
+  "held_out_evaluation_smoke": true,
+  "png16_quantization_verified": true,
+  "video_inference_smoke": {
+    "frames_read": 3,
+    "stride": 2,
+    "predictions_saved": 2
+  },
+  "epoch_boundary_resume_smoke": true,
+  "cuda_tested": false,
+  "versions": {
+    "torch": "2.14.1",
+    "opencv": "4.14.0",
+    "numpy": "2.3.5",
+    "torchvision": "0.29.1",
+    "Pillow": "12.3.0"
+  },
+  "note": "Pipeline verification only. No full training or model quality claim.",
+  "rtx3070_config_cli_overrides_verified": true
+}
